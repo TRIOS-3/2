@@ -1,0 +1,730 @@
+html{
+  font-family: 'Nunito', sans-serif;
+  }
+
+body{
+  
+  margin: 0;
+  padding: 0;
+}
+#logo{
+  position: absolute;
+  top: 3%;
+  left: 0.9%;
+  height: 5%;
+}
+#profileimg{
+  position: absolute;
+  top: 2%;
+  left: 94.5%;
+  border-radius: 8px;
+  height: 8%;
+}
+
+/*.menu{
+  position: absolute;
+  border-radius: 10px;
+  background-color: #8bbabb;
+  height: 250px;
+  max-width: 5%;
+  left: 0.9%;
+  top: 15%;
+}*/
+h2{
+  position: absolute;
+  top: 3%;
+  margin: 0 auto;
+  font-size: 210%;
+  left: 9%;
+  font-weight: 800;
+}
+
+.banner img{
+  position: absolute;
+  top: 10%;
+  left: 8%;
+  height: 45%;
+}
+
+.banner h1{
+  color: #003f5c;
+  font-size: 35px;
+  font-weight: 800;
+  position: absolute;
+  top: 23%;
+  left: 11%;
+}
+.banner p{
+  max-width: 400px;
+  color: #003f5c;
+  margin-right: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  font-style: italic;
+  position: absolute;
+  top: 32%;
+  left: 11%;
+}
+h3{
+  font-weight: 800;
+  position: absolute;
+  top: 56.5%;
+  margin: 0 auto;
+  font-size: 180%;
+  left: 9.5%;
+}
+
+.year1{
+  position: absolute;
+  height: 120px;
+  width: 28%;
+  top: 63%;
+  left: 9%;
+  border-radius: 15px;
+  background-image: url(1year.jpg);
+  transition: linear 0.4s;
+  cursor: pointer;
+}
+.year2{
+  position: absolute;
+  height: 120px;
+  width: 28%;
+  top: 63%;
+  left: 40%;
+  border-radius: 15px;
+  background-image: url(2year.jpg);
+  transition: ease 0.5s;
+  cursor: pointer;
+}
+.year3{
+  position: absolute;
+  height: 120px;
+  width: 28%;
+  top: 82%;
+  left: 9%;
+  border-radius: 15px;
+  background-image: url(3year.jpg);
+  transition: ease 0.5s;
+  cursor: pointer;
+}
+.year4{
+  position: absolute;
+  height: 120px;
+  width: 28%;
+  top: 82%;
+  left: 40%;
+  border-radius: 15px;
+  background-image: url(4year.jpg);
+  transition: ease 0.5s;
+  cursor: pointer;
+}
+
+.list{
+  margin: 13px auto;
+  list-style-type: none;
+  left: 0.9%;
+}
+.list svg{
+  margin: 20px 20px 30px 28px;
+  color: #fff;
+  stroke-width: 2.5px;
+  cursor: pointer;
+}
+.indicator{
+  position: absolute;
+  height: 20%;
+  margin-top: 25%;
+  border-radius: 0 5px 5px 0;
+  width: 6%;
+  background-color: #fff;
+  transition: margin-top 0.4s linear;
+}
+
+
+.caption{
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  padding: 10px 0 0 40px;
+}
+.text{
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 5px 0 0 45px;
+}
+h4{
+  font-weight: 800;
+  position: absolute;
+  margin: 0 auto;
+  top: 11%;
+  left: 71%;
+  font-size: 220%;
+}
+.gate{
+  position: absolute;
+  height: 270px;
+  width: 13%;
+  top: 20%;
+  left: 71%;
+  border-radius: 15px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(gate.jpg);
+  background-position: top;
+  transition: ease 0.5s;
+  text-overflow: ellipsis;
+  cursor: pointer;
+}
+.appt{
+  position: absolute;
+  height: 270px;
+  width: 13%;
+  top: 20%;
+  left: 85.5%;
+  border-radius: 15px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(appt.jpg);
+  background-size: cover;
+  background-position: center;
+  transition: ease 0.5s;
+  text-overflow: ellipsis;
+  cursor: pointer;
+  opacity: 0.5 #000;
+}
+.tech{
+  position: absolute;
+  height: 270px;
+  width: 13%;
+  top: 60%;
+  left: 71%;
+  border-radius: 15px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(sk.pg);
+  background-position: center top;
+  transition: ease 0.5s;
+  text-overflow: ellipsis;
+  cursor: pointer;
+}
+.novels{
+  position: absolute;
+  height: 270px;
+  width: 13%;
+  top: 60%;
+  left: 85.5%;
+  border-radius: 15px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(novels.jpg);
+  background-size: cover;
+  transition: ease 0.5s;
+  text-overflow: ellipsis;
+  cursor: pointer;
+}
+.caption1{
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  padding: 10px 0 0 20px;
+}
+.text1{
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 5px 40px 0 20px;
+}
+
+.year1:hover{
+  transform: scale(1.02);
+  box-shadow: 8px 8px 15px 1px rgb(0, 0, 0,0.2);
+}
+.year2:hover{
+  transform: scale(1.02);
+  box-shadow: 8px 8px 15px 1px rgb(0, 0, 0,0.2);
+}
+.year3:hover{
+  transform: scale(1.02);
+  box-shadow: 8px 8px 15px 1px rgb(0, 0, 0,0.2);
+}
+.year4:hover{
+  transform: scale(1.02);
+  box-shadow: 8px 8px 15px 1px rgb(0, 0, 0,0.2);
+}
+.gate:hover{
+  transform: scale(1.02);
+  background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(gate.jpg);
+  box-shadow: 10px 10px 15px 1px rgb(0, 0, 0,0.2);
+}
+.appt:hover{
+  transform: scale(1.02);
+  background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(appt.jpg);
+  box-shadow: 10px 10px 15px 1px rgb(0, 0, 0,0.2);
+}
+.tech:hover{
+  transform: scale(1.02);
+  background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(tech.jpg);
+  box-shadow: 10px 10px 15px 1px rgb(0, 0, 0,0.2);
+}
+.novels:hover{
+  transform: scale(1.02);
+  background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(novels.jpg);
+  box-shadow: 10px 10px 15px 1px rgb(0, 0, 0,0.2);
+}
+
+/*MIN WIDTH 370PX*/
+@media (min-width:370px){
+  body{
+    overflow: scroll;
+  }
+  #logo{
+    position: absolute;
+    top: 20%;
+    left: 4%;
+    height: 5%;
+  }
+  #profileimg{
+    position: absolute;
+    top: 2%;
+    left: 83%;
+    border-radius: 20px;
+    height: 8%;
+    
+  }
+  .menu{
+    position: fixed;
+    bottom: 0;
+    background-color: #8bbabb;
+    width: 100vw;
+    height: 150px;
+    padding:0;
+    border-radius: 40px 40px 0 0;
+    z-index: 1;
+  }
+   h2{
+    position: absolute;
+    top: 11%;
+    margin: 0 auto;
+    font-size: 85px;
+    left: 4%;
+    font-weight: bolder;
+   }
+   .banner img{
+    position: absolute;
+    top: 20%;
+    left: 4%;
+    height: 18%;
+  
+   }
+   .banner h1{
+    color: #003f5c;
+    font-size: 35px;
+    font-weight:900;
+    position: absolute;
+    top: 25%;
+    left: 7.5%;
+  }
+   
+   .banner p{
+    max-width: 400px;
+    color: #003f5c;
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: 900;
+    font-style: italic;
+    position: absolute;
+    top: 29%;
+    left: 8%;
+   }
+   
+   h3{
+    font-weight: 800;
+    position: absolute;
+    top: 39.7%;
+    margin: 0 auto;
+    font-weight: 800;
+    font-size: 400%;
+    left: 7.5%;
+  }
+  .year1{
+    position: absolute;
+    height: 200px;
+    width: 40%;
+    top: 46%;
+    left: 6%;
+    border-radius: 35px;
+    background-image: url(1year.jpg);
+    transition: linear 0.4s;
+    cursor: pointer;
+  }
+  .year2{
+    position: absolute;
+    height: 200px;
+    width: 40%;
+    top: 46%;
+    left: 53%;
+    border-radius: 35px;
+    background-image: url(2year.jpg);
+    transition: linear 0.4s;
+    cursor: pointer;
+  }
+  .year3{
+    position: absolute;
+    height: 200px;
+    width: 40%;
+    top: 60%;
+    left: 6%;
+    border-radius: 35px;
+    background-image: url(3year.jpg);
+    transition: linear 0.4s;
+    cursor: pointer;
+  }
+  .year4{
+    position: absolute;
+    height: 200px;
+    width: 40%;
+    top: 60%;
+    left: 53%;
+    border-radius: 35px;
+    background-image: url(4year.jpg);
+    transition: linear 0.4s;
+    cursor: pointer;
+  }
+  .caption{
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    padding: 20px 0 0 30px;
+    margin: 20px;
+  }
+  .text{
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 10px;
+    padding: 10px 0 0 40px;
+  }
+ 
+  .indicator{
+    display: none;
+  }
+    h4{
+      font-weight: 800;
+      position: absolute;
+      margin: 0 auto;
+      top: 74%;
+      left: 7.5%;
+      font-size: 400%;
+    }
+    .gate{
+      position: absolute;
+      height: 300px;
+      width: 40%;
+      top: 80%;
+      left: 6%;
+      border-radius: 30px;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(gate.jpg);
+      background-position: top;
+      transition: ease 0.5s;
+      text-overflow: ellipsis;
+      cursor: pointer;
+    }
+    .appt{
+      position: absolute;
+      height: 300px;
+      width: 40%;
+      top: 80%;
+      left: 53%;
+      border-radius: 30px;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(appt.jpg);
+      background-size: cover;
+      background-position: center;
+      transition: ease 0.5s;
+      text-overflow: ellipsis;
+      cursor: pointer;
+      opacity: 0.5 #000;
+    }
+    .tech{
+      position: absolute;
+      height: 300px;
+      width: 40%;
+      top: 100%;
+      left: 6%;
+      margin-bottom: 20%;
+      border-radius: 30px;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(tech.jpg);
+      background-position: center top;
+      transition: ease 0.5s;
+      text-overflow: ellipsis;
+      cursor: pointer;
+    }
+    .novels{
+      position: absolute;
+      height: 300px;
+      width: 40%;
+      top: 100%;
+      left: 53%;
+      margin-bottom: 20%;
+      border-radius: 30px;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(novels.jpg);
+      background-position: center top;
+      transition: ease 0.5s;
+      text-overflow: ellipsis;
+      cursor: pointer;
+    }
+    .caption1{
+      color: #ffffff;
+      font-size: 48px;
+      font-weight: 900;
+      letter-spacing: 1px;
+      padding: 10px 0 0 60px;
+    }
+    .text1{
+      display: none;
+    }
+    .list{
+      margin: 13px auto;
+      list-style-type: none;
+      left: 0.9%;
+    }
+    .list svg{
+      margin: 20px 105px 30px 125px;
+      color: #fff;
+      stroke-width: 2.3px;
+      height: 75px;
+      width: 75px;
+      cursor: pointer;
+    }
+}
+
+
+@media (min-width:700px){
+  #logo{
+    position: absolute;
+    top: 5%;
+    left: 3%;
+    height: 7%;
+  }
+  #profileimg{
+    position: absolute;
+    top: 2%;
+    left: 94.5%;
+    border-radius: 8px;
+    height: 8%;
+  }
+  
+  .menu{
+    position: absolute;
+    border-radius: 10px;
+    background-color: #8bbabb;
+    height: 250px;
+    max-width: 5%;
+    left: 0.9%;
+    top: 15%;
+  }
+  h2{
+    position: absolute;
+    top: 3%;
+    margin: 0 auto;
+    font-size: 210%;
+    left: 9%;
+    font-weight: 800;
+  }
+  
+  .banner img{
+    position: absolute;
+    top: 10%;
+    left: 8%;
+    height: 45%;
+  }
+  
+  .banner h1{
+    color: #003f5c;
+    font-size: 35px;
+    font-weight: 800;
+    position: absolute;
+    top: 23%;
+    left: 11%;
+  }
+  .banner p{
+    max-width: 400px;
+    color: #003f5c;
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: italic;
+    position: absolute;
+    top: 32%;
+    left: 11%;
+  }
+  h3{
+    font-weight: 800;
+    position: absolute;
+    top: 56.5%;
+    margin: 0 auto;
+    font-size: 180%;
+    left: 9.5%;
+  }
+  
+  .year1{
+    position: absolute;
+    height: 120px;
+    width: 28%;
+    top: 63%;
+    left: 9%;
+    border-radius: 15px;
+    background-image: url(1year.jpg);
+    transition: linear 0.4s;
+    cursor: pointer;
+  }
+  .year2{
+    position: absolute;
+    height: 120px;
+    width: 28%;
+    top: 63%;
+    left: 40%;
+    border-radius: 15px;
+    background-image: url(2year.jpg);
+    transition: ease 0.5s;
+    cursor: pointer;
+  }
+  .year3{
+    position: absolute;
+    height: 120px;
+    width: 28%;
+    top: 82%;
+    left: 9%;
+    border-radius: 15px;
+    background-image: url(3year.jpg);
+    transition: ease 0.5s;
+    cursor: pointer;
+  }
+  .year4{
+    position: absolute;
+    height: 120px;
+    width: 28%;
+    top: 82%;
+    left: 40%;
+    border-radius: 15px;
+    background-image: url(4year.jpg);
+    transition: ease 0.5s;
+    cursor: pointer;
+  }
+  
+  .list{
+    margin: 13px auto;
+    list-style-type: none;
+    left: 0.9%;
+  }
+  .list svg{
+    margin: 20px 20px 30px 28px;
+    color: #fff;
+    stroke-width: 2.5px;
+    cursor: pointer;
+  }
+  .indicator{
+    position: absolute;
+    height: 20%;
+    margin-top: 25%;
+    border-radius: 0 5px 5px 0;
+    width: 6%;
+    background-color: #fff;
+    transition: margin-top 0.4s linear;
+  }
+  
+  
+  .caption{
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    padding: 10px 0 0 40px;
+  }
+  .text{
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 5px 0 0 45px;
+  }
+  h4{
+    font-weight: 800;
+    position: absolute;
+    margin: 0 auto;
+    top: 11%;
+    left: 71%;
+    font-size: 220%;
+  }
+  .gate{
+    position: absolute;
+    height: 270px;
+    width: 13%;
+    top: 20%;
+    left: 71%;
+    border-radius: 15px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(gate.jpg);
+    background-position: top;
+    transition: ease 0.5s;
+    text-overflow: ellipsis;
+    cursor: pointer;
+  }
+  .appt{
+    position: absolute;
+    height: 270px;
+    width: 13%;
+    top: 20%;
+    left: 85.5%;
+    border-radius: 15px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(appt.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: ease 0.5s;
+    text-overflow: ellipsis;
+    cursor: pointer;
+    opacity: 0.5 #000;
+  }
+  .tech{
+    position: absolute;
+    height: 270px;
+    width: 13%;
+    top: 60%;
+    left: 71%;
+    border-radius: 15px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(sk.pg);
+    background-position: center top;
+    transition: ease 0.5s;
+    text-overflow: ellipsis;
+    cursor: pointer;
+  }
+  .novels{
+    position: absolute;
+    height: 270px;
+    width: 13%;
+    top: 60%;
+    left: 85.5%;
+    border-radius: 15px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(novels.jpg);
+    background-size: cover;
+    transition: ease 0.5s;
+    text-overflow: ellipsis;
+    cursor: pointer;
+  }
+  .caption1{
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    padding: 10px 0 0 20px;
+  }
+  .text1{
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 5px 40px 0 20px;
+  }
+}
+
+
+
+
+  
